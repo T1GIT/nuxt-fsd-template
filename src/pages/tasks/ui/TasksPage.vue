@@ -9,10 +9,7 @@ const size = toReactive(useElementSize(rootRef))
 </script>
 
 <template>
-  <div
-    ref="rootRef"
-    class="flex pt-5"
-  >
+  <div ref="rootRef" class="flex pt-5">
     <TasksList :tasks="tasksStore.tasks" />
 
     {{ size }}

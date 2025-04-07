@@ -10,7 +10,7 @@ function add(): void {
 </script>
 
 <template>
-  <button class="animate-in fade-in zoom-in" @click="add">
-    <Icon name="i:arxiv" class="bg-green-800" />
+  <button class="size-fit animate-in fade-in zoom-in" @click="add">
+    <Icon name="i:arxiv" class="text-green-800" />
   </button>
 </template>

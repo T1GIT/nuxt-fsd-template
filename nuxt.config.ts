@@ -24,6 +24,7 @@ export default defineNuxtConfig({
     },
   },
   icon: {
+    mode: 'svg',
     customCollections: [
       {
         prefix: 'i',
